@@ -32,7 +32,36 @@ const myFunc=function(){
 }
 
 
-console.log(typeof myFunc)
-console.log(typeof null)
-console.log(typeof myObj)
-console.log(typeof myObj)
+// console.log(typeof myFunc)
+// console.log(typeof null)
+// console.log(typeof myObj)
+// console.log(typeof myObj)
+
+
+
+/* *************************
+Memory  
+Stack and Heap 
+primitive ==> stack
+non primitive ==>heap
+
+ */
+
+let myYoutubeName="adil Thakur"
+let anotherName=myYoutubeName
+anotherName="RedRider"
+console.log(anotherName);
+console.log(myYoutubeName);
+
+
+let user1 = {
+    email:"adil.thakur@servicenow.com",
+    name:"adil Thakur",
+    Salary: 90000,
+    age:23
+}
+let user2 = user1
+
+user2.Salary=100000
+console.log(user1.Salary);
+console.log(user2.Salary);
