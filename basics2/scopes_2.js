@@ -25,7 +25,7 @@ function addone(num )
     return num+1
 }
 
-
+// console.log(addTwo(5)). ==> error
 const addTwo = function(num) //expression
 {
     return num+2
