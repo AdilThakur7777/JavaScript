@@ -28,7 +28,7 @@ const userEmail=[]
     // val1 = 5 ?? 10
 
     // val1 = null ?? 10//
-    var1 =undefined ?? 15
+    var1 = null ?? undefined // second value lega if undefined ya null hoga
     console.log(var1)
 
 
